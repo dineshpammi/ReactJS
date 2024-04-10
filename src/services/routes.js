@@ -3,7 +3,7 @@ import React from 'react';
 // import { Route, Routes } from 'react-router-dom';'
 import { Route, Routes, Navigate } from 'react-router-dom';
 import Login from '../components/login/Login';
-import Dashboard from '../components/dashboard/Dashboard'
+import Dashboard from '../components/dashboard/Dashboard.tsx'
 
 export function PrivateRoute({ children }) {
     const auth = localStorage.getItem('authToken');
